@@ -1,0 +1,60 @@
+ <p id="sea-more">At HAREG WOIN Hotel, we understand the unique challenges faced by today's meeting planners. That's why we’ve created exclusive offers and services that help make your job a little bit easier. Whether your meeting is for 10 or 500, we specialize in designing impressive conferences, meetings, and special occasions. Yegofe View Hotel prides itself in consistently providing an elegant meeting space and event venue with personalized and impeccable service. For corporate events, conferences, meetings and special occasions in Kombolcha, please contact us! Our fast, efficient and technology-driven Business Center is ready to assist you with all your business needs. Accomplish all your tasks quickly with robust Internet access, domestic and international fax and mailing capabilities. Additional secretarial services are available upon request.</p>
+   
+ <h2 id="atractive-place-viseted">Place to be visit in  wollo</h2>
+ <div class="row attractive-place">
+  <div class="col-3 cards">
+      <div class="card" style="width: 18rem;">
+          <img src="./atractive place/Amba_Geshen_N._Ethiopia.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Geshen mariyaam </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">read more</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-3 cards">
+      <div class="card" style="width: 18rem;">
+          <img src="./atractive place/images (6).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Geshen mariyaam </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">read more</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-3 cards">
+      <div class="card" style="width: 18rem;">
+          <img src="./atractive place/images (4).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Geshen mariyaam </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">read more</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-3 cards">
+      <div class="card" style="width: 18rem;">
+          <img src="./atractive place/download.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Geshen mariyaam </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">read more</a>
+          </div>
+        </div>
+  </div>
+
+
+  <div class="col-4">
+    <img id="profileimg" src="./featurs/photo_2022-03-03_04-43-54.jpg" alt="">
+    <p>
+        I am Haregewoin Menberu, software 
+        engineering student at Wollo university, all this project 
+        is design as hotel website. contact me on above 
+        contacts.
+
+        <pre>
+        love you
+        thank you
+        </pre>
+    </p>
+</div>

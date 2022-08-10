@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+} 
+.bgcolor{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #061F5F;
+}
+.logodesigen{
+    margin-left: 0.782%;
+    width:15.625%;
+    text-align: center;
+    background-color: deepskyblue;
+    color: white;
+}
+.logodesigen h1{
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+.color {
+    padding: 0 2%;
+    color: white;
+}
+
+.color:hover{
+    color: aqua;
+}
+
+

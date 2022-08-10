@@ -1,0 +1,25 @@
+.footercol{
+    display:flex;
+}
+ ul{
+    list-style-type: none;
+    color:white;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.fottercontent{
+    background-color:  #061F5F;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+}
+a{
+    color: white;
+}
+.map{
+    display: flex;
+}
+#profileimg{
+    width: 40%;
+    height: 30vh;
+    border-radius: 50%;
+}

@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&family=Outfit:wght@200&family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&family=Open+Sans:wght@400;500;700&family=Outfit:wght@200&family=Syne+Tactile&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#main-imag{
+    width: 90%;
+    margin: 5%;
+}
+.city{
+    display: flex;
+}
+.city #img-city{
+    width: 60%;
+    margin: 5%;
+    text-align: center;
+}
+.city h2{
+    font-size: 1.5em;
+}
+
+#book-now{
+    align-items: center;
+    width:40%;
+    height:50px;
+    margin-left: 20%;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    color: white;
+    background-color: #061F5F;
+}
+#book-now a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#advert{
+    width: 80%;
+    height:40vh;
+    margin-bottom: 5vh;
+}
+.city{
+    margin:10%;
+}
+.adverting{
+    margin: 10%;
+    display: flex;
+    max-width: 100%;
+}
+#dicribtioncard{
+    padding: 10px;
+}
+#readmore {
+    color: #061F5F;
+}
+#readmore:hover{
+    color: white;
+    background-color: #061F5F;
+}
+#moretxt{
+    display: none;
+}
+.advert{
+    text-align: center;
+    color:#061F5F;
+}
+#featur{
+    text-align: center;
+    font-size: 3em;
+}
+#telegramprofile{
+    width: 100%;
+    height:35vh;
+    margin: 15%;
+}
+#telegramprofile:hover{
+    height: 40vh;
+    width:105%;
+}
+.col{
+    text-align: center;
+    padding: 5%;
+}
+h4{
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+#atractive-place-viseted{
+    align-items: center;
+    color: white;
+    padding:2%;
+}
+.all-discribition{
+    padding-bottom: 100px;
+}
+.onevent{
+    width: 60%;
+    margin: 5%;
+}
+.recretion{
+    width: 80%;
+    margin:10%;
+    
+}
+.recretiondescribition{
+    padding: 10%;
+     font-weight: 700;
+}
+.recretionof{
+    font-family: 'Montserrat', sans-serif;
+}
+.cardsand{
+    margin: 5%;
+    column-gap: 5%;
+}
+
+
+
+
+
+
+
+
+
+.bars img{
+    margin-bottom: 10vh;
+}
+.bars #bar, .bars #baron{
+    margin-left: 5%;
+}
+.galleryimage{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    margin: 3%;
+}
+ .nnvnv{
+    width: 100%;
+    height: 20vh;
+    border: none;
+}
+.galleynavigaton ul{
+    display: flex;
+    list-style-type: none;
+}
+.gallerynav{
+    width:100%;
+    height: 8vh;
+    margin:25%;
+    border: none;
+    border-bottom: 3px solid #061F5F;
+}
+#eventimage{
+    width:100%;
+}
+
+
+img{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.accrooms{
+    background-color: rgba(6,35,95,0.5);;
+    margin-top :-40vh;;
+    text-align: center;
+    z-index: 1;
+    color:white
+}
+.roomslist{
+    margin-top: 15vh;
+}
+#roomslist{
+    height: 70vh;
+}
+.roomslist{
+    display: flex;
+}
+.romdis{
+    margin: 10%;
+    margin-top: 0;
+}
+
+
+
+
+@media(max-width:600){
+    .roomslist{
+        display: block;
+    }
+}
+@media (max-width:900px){
+    #main-imag{
+        margin: 0px;
+        width: 100%;
+    }
+  .city{
+        display: block;
+    }
+    }
