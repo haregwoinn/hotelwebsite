@@ -15,12 +15,10 @@
 <body>
             <header>
                 <nav class="navbar navbar-expand-lg bgcolor">
+
                     <div class="container-fluid">
-                        <div class="container-fluid logodesigen">
-                            <h1 class="name"> HAREG WOIN HOTEL</h1>
-                        </div>        
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span id="togle" class="navbar-toggler-icon "></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -50,27 +48,51 @@
                             <a class="nav-link color"  href="./gallery.html">Gallery</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link color"  href="./gallery.html">Map</a>
+                            <a class="nav-link color"  href="./map.html">Map</a>
                           </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                       </div>
                     </div>
                   </nav>
                   <script defer src="./script.js" > </script>
+                  <img class="logoimg" src="./home image/LOGO.png" class="img-fluid" alt="...">
             </header>
-
-        
         <main>
-            <div class="col-12">
-                <img id="main-imag" src="./home image/main-home.jpg" alt="hotel-main-image">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img class="d-block w-100" src="./home image/jcs-chen-jdTLcwsJkPg-unsplash.jpg"  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img class="d-block w-100" src="./home image/oswald-elsaboath-ym_EI-DTS1g-unsplash.jpg"  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./home image/sidath-vimukthi-xZKEqleFdnk-unsplash (1).jpg"  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>  
             <div class="city img-fluid">
               <div id="dicribtioncard" class="container-fluid">
-                <h2>HAREG WOIN HOTEL</h2>
+                <h2>HAREGEWOIN HOTEL</h2>
                 <p>
                     Welcome to Haregewoin hotel which is located in Kombolcha where most industrial activities of the country take place. Our hotel is only 15 minutes away from the Kombolcha Airport.
                    We currently have 70 spacious rooms with a beautiful panoramic views of Kombolcha. <span id="moretxt">Our multilingual and well trained staff is ready to serve you and cater to your needs. We
@@ -86,70 +108,70 @@
            </div>
            </div>
            <h1 id="featur">Our featur</h1>
-           <div class="row adverting">
-            <div class="col-4 advert">
-                <img id="advert" src="./rooms/sq1.jpg" alt="">
-                <h4>$100</h4>
-                <button id="book-now" type="button"><a href="#">see more</a></button>
+
+           <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img class="card-img-top" src="./rooms/sq1.jpg" alt="">
+                <div class="card-body">
+                  <h4>$100</h4>
+                  <button id="book-now"  class="btn btn-primary btn-sm" type="button"><a href="#">see more</a></button>
+                </div>
+              </div>
             </div>
-            <div class="col-4 advert">
-                <img id="advert" src="./featurs/event/goveners-small.jpg" alt="">
-                <h4>$250</h4>
-                <button id="book-now" type="button"><a href="#">see more</a></button>
+            <div class="col">
+              <div class="card h-100">
+                <img class="card-img-top" src="./featurs/event/goveners-small.jpg" alt="">
+                <div class="card-body">
+                  <h4>$250</h4>
+                  <button id="book-now"  class="btn btn-primary btn-sm" type="button"><a href="#">see more</a></button>
+                </div>
+              </div>
             </div>
-            <div class="col-4 advert">
-                <img id="advert" src="./featurs/bars and resturants/italy-tuscany-florence-listed-as-world-heritage-by-unesco-palazzo-della-gherardesca-5-star-palace-four-seasons-hotel-firenze-the-bar-WE80B3.jpg" alt="">
-               <h4> $150</h4>
-                <button id="book-now" type="button"><a href="#">see more</a></button>
+            <div class="col">
+              <div class="card h-100">
+                <img class="card-img-top" src="./featurs/bars and resturants/italy-tuscany-florence-listed-as-world-heritage-by-unesco-palazzo-della-gherardesca-5-star-palace-four-seasons-hotel-firenze-the-bar-WE80B3.jpg" alt="">
+                <div class="card-body">
+                  <h4> $150</h4>
+                  <button id="book-now"  class="btn btn-primary btn-sm" type="button"><a href="#">see more</a></button>
+                </div>
+              </div>
             </div>
-            <div class="col-4 advert">
-                <img id="advert" src="./featurs/recretion/hotel-con-spa-en-almeria-protur-roquetas-hotel-spa-9.jpg" alt="">
-                <h4>$80</h4>
-                <button id="book-now" type="button"><a href="#">see more</a></button>
+            <div class="col">
+              <div class="card h-100">
+                <img class="card-img-top" src="./featurs/recretion/hotel-con-spa-en-almeria-protur-roquetas-hotel-spa-9.jpg" alt="">
+                <div class="card-body">
+                  <h4>$80</h4>
+                  <button id="book-now"  class="btn btn-primary btn-sm" type="button"><a href="#">see more</a></button>
+                </div>
+              </div>
             </div>
-            <div class="col-4 advert">
-                <img id="advert" src="./featurs/recretion/protur-roquetas-hotel-spa-almeria-19.jpg" alt="">
-                <h4>$50</h4>
-                <button id="book-now" type="button"><a href="#">see more</a></button>
+            <div class="col">
+              <div class="card h-100">
+                <img class="card-img-top" src="./featurs/recretion/protur-roquetas-hotel-spa-almeria-19.jpg" alt="">
+                <div class="card-body">
+                  <h4>$50</h4>
+                  <button id="book-now"  class="btn btn-primary btn-sm" type="button"><a href="#">see more</a></button>
+                </div>
+              </div>
             </div>
-            <div class="col-4 advert">
-                <img id="advert" src="./featurs/event/our-five-star-meeting.jpg" alt="">
-                <h4>$500</h4>
-                <button id="book-now" type="button"><a href="#">see more</a></button>
+            <div class="col">
+              <div class="card h-100">
+                <img class="card-img-top" src="./featurs/event/our-five-star-meeting.jpg" alt="">
+                <div class="card-body">
+                  <h4>$500</h4>
+                  <button id="book-now"  class="btn btn-primary btn-sm" type="button"><a href="#">see more</a></button>
+                </div>
+              </div>
             </div>
-           </div>
+          </div>              
         </main>
         <footer>
-                <div class="row fottercontent">
-                    <div class="col-6 footercol">
-                        <ul>
-                            <li><a href="#">mainu</a></li>
-                            <li><a href="#">fitness</a></li>
-                            <li><a href="#">spa service </a></li>
-                            <li><a href="#">swimming pool</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <ul>
-                            <li>contact us on</li>
-                            <li><a href="#">phone:+251922687847</a></li>
-                            <li><a href="#">email:hre4422@gmail.com</a></li>
-                            <li><a href="#">telegram:@hareg22 or https://t.me/Hareg22</a></li>
-                            <li><a href="#">facebook</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <ul>
-                            <li><a href="#">security</a></li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="col-12 fottercontent">
+          </div>
         </footer>
     </div>
-    <div class="map container-fluid">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kombolicha%20unive&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
-        <a href="https://t.me/Hareg22"><img id="telegramprofile" src="./featurs/Screenshot 2022-08-09 052715.jpg" alt=""></a>
-    </div>
+
      <script defer src="./script.js" > </script>
 </body>
 </html>

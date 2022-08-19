@@ -58,3 +58,37 @@
         </pre>
     </p>
 </div>
+
+
+
+<footer>
+  <div class="row fottercontent">
+      <div class="col-6 footercol">
+          <ul>
+              <li><a href="#">mainu</a></li>
+              <li><a href="#">fitness</a></li>
+              <li><a href="#">spa service </a></li>
+              <li><a href="#">swimming pool</a></li>
+          </ul>
+      </div>
+      <div class="col-3">
+          <ul>
+              <li>contact us on</li>
+              <li><a href="#">phone:+251922687847</a></li>
+              <li><a href="#">email:hre4422@gmail.com</a></li>
+              <li><a href="#">telegram:@hareg22 or https://t.me/Hareg22</a></li>
+              <li><a href="#">facebook</a></li>
+          </ul>
+      </div>
+      <div class="col-3">
+          <ul>
+              <li><a href="#">security</a></li>
+          </ul>
+      </div>
+  </div>
+</footer>
+</div>
+
+<script defer src="./script.js" > </script>
+</body>
+</html>

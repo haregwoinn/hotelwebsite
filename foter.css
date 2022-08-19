@@ -8,9 +8,10 @@
     margin-top: 3%;
 }
 .fottercontent{
-    background-color:  #061F5F;
+    background-color: #35C1F0;
     margin-top: 10vh;
     margin-bottom: 3vh;
+    min-height: 2vh;
 }
 a{
     color: white;

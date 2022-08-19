@@ -3,15 +3,18 @@
 } 
 .bgcolor{
     width: 100%;
-    min-height: 10vh;
-    background-color: #061F5F;
+    background-color: #35C1F0;
+    position: fixed;
+    z-index: 1;
 }
-.logodesigen{
+#togle{
+    color:white;
+}
+.logoimg{
+    background-attachment: fixed;
     margin-left: 0.782%;
+    margin-top: 3vh;
     width:15.625%;
-    text-align: center;
-    background-color: deepskyblue;
-    color: white;
 }
 .logodesigen h1{
     padding-top: 20px;
@@ -25,5 +28,6 @@
 .color:hover{
     color: aqua;
 }
+
 
 

@@ -5,10 +5,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-#main-imag{
-    width: 90%;
-    margin: 5%;
-}
 .city{
     display: flex;
 }
@@ -25,11 +21,8 @@ body{
     align-items: center;
     width:40%;
     height:50px;
-    margin-left: 20%;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
     color: white;
-    background-color: #061F5F;
+    background-color: #35C1F0;
 }
 #book-now a{
     color: white;
@@ -186,11 +179,28 @@ img{
     margin: 10%;
     margin-top: 0;
 }
+.card img{
+    height: 65%;
+}
 
 
 
+@media (max-width:990px){
+    .logoimg{
+        position: relative;
+        margin: 0;
+        width: 100%;
+       
+    } 
+ .city{
+    display: block;
+    } 
+    .advert{
+        display: flex;
+    }
+}
 
-@media(max-width:600){
+/* @media(max-width:600){
     .roomslist{
         display: block;
     }
@@ -203,4 +213,4 @@ img{
   .city{
         display: block;
     }
-    }
+    } */
